@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [smokeTest]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="BasicFlows(failed)" verbose="0">
+    <classes>
+      <class name="regressionTest">
+        <methods>
+          <include name="verifyInquiry"/>
+          <include name="quitDriver"/>
+          <include name="verifyItemAdded"/>
+          <include name="verifyUserLogin"/>
+          <include name="verifyStoreLocate"/>
+          <include name="setupDriver"/>
+          <include name="verifyWishList"/>
+        </methods>
+      </class> <!-- regressionTest -->
+    </classes>
+  </test> <!-- BasicFlows(failed) -->
+</suite> <!-- Failed suite [smokeTest] -->
